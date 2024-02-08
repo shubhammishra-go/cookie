@@ -58,6 +58,9 @@ const (
 )
 ```
 
+# Cookie struct in Go
+
+A Cookie represents an HTTP cookie as sent in the Set-Cookie header of an HTTP response or the Cookie header of an HTTP request. 
 
 ```go 
 type Cookie struct {
@@ -80,8 +83,6 @@ type Cookie struct {
 	Unparsed []string // Raw text of unparsed attribute-value pairs
 }
 ```
-
-A Cookie represents an HTTP cookie as sent in the Set-Cookie header of an HTTP response or the Cookie header of an HTTP request. 
 
 ## Intialization of a new cookie instance
 
