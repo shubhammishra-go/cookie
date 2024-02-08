@@ -124,7 +124,7 @@ c := &http.Cookie{
 http.SetCookie(w, c)
 ```
 
-# Operation on a cookie 
+# Operations on a cookie 
 
 consider a cookie instance `c` where c is a cookie.
 
